@@ -25,7 +25,7 @@ def CostFunc(theta,x,y):
     return J;
 
 # intialize X and y
-X = np.array([[1,2,3],[1,3,4]]);
+X = np.array([[1,2,3],[1,3,10]]);
 y = np.array([[1],[0]]);
 
 m , n = X.shape;
